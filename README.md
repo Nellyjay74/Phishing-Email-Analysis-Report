@@ -23,9 +23,46 @@ Performed a detailed investigation of a suspicious email received through the co
 <b>1. Sender Information</b>
 
  <ul>
-  <strong><li>Return Path:</li></strong> apache@sk.globalexceltrade.xyz
+  <li> <strong>Return Path:</strong> apache@sk.globalexceltrade.xyz </li>
   
-   <strong><li> SeSender IP Address:</li></strong> 151.80.93.107
-   <strong><li>IP Reputation Check (AbuseIPDB):</li></strong>  No existing reports were freports does not indicate safety, especially given the suspicious context.ound for this IP address in the AbuseIPDB database. However, the lack of 
+   <li> <strong> SeSender IP Address:</strong> 151.80.93.107 </li>
+   <li> <strong>IP Reputation Check (AbuseIPDB):</strong>  No existing reports were freports does not indicate safety, especially given the suspicious context.ound for this IP address in the AbuseIPDB database. However, the lack of </li> 
 </ul>
-                                      
+
+
+
+
+
+
+<img src = "Folder/sample 3501.jpg">
+
+<li> <b>⦁	nding Server:</b> SJ1P223MB0531.NAMP223.PROD.OUTLOOK.COM (::1)
+</li>
+
+
+<br>
+
+<li> <h3>2 Email Authentication Results</h3> </li>
+
+<li> <b>	SPF (Sender Policy Framework):</b> PASS </li>
+<br>
+<li>  	The SPF record validated successfully, suggesting that the sending server is authorized to send mail on behalf of the domain. However, SPF alone is not a reliable indicator of legitimacy.  </li>
+
+<br>
+<li> <b>	DKIM (DomainKeys Identified Mail):</b> NONE   </li>
+</br>
+
+<li> 	No DKIM signature was present, indicating the email was not cryptographically signed. This reduces the credibility and makes the email susceptible to spoofing.  </li>
+<br>
+<li> <b>DMARC (Domain-based Message Authentication, Reporting, and Conformance):</b> NONE  </li>
+<br>
+<li> 	The domain lacks a DMARC policy, increasing the likelihood of unauthorized use and spoofing. </li>
+
+<br>
+
+
+<li>  <h3>3 Embedded URL Analysis</h3> </li>
+
+<li>  <b>1 Suspicious Link</b>  </li>
+
+<li> 	<strong>URL Found in Email:</strong> <a href="https://innovatech.website"></a> 
