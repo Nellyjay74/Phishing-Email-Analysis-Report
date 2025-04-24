@@ -22,8 +22,10 @@ Performed a detailed investigation of a suspicious email received through the co
 
 <b>1. Sender Information</b>
 
-  <li> Return Path:</li>  apache@sk.globalexceltrade.xyz
-  <li> SeSender IP Address:</li>   151.80.93.107
-  <li>IP Reputation Check (AbuseIPDB):</li>  No existing reports were freports does not indicate safety, especially given the suspicious context.ound for this IP address in the AbuseIPDB database. However, the lack of 
-
+ <ul>
+  <strong><li>Return Path:</li></strong> apache@sk.globalexceltrade.xyz
+  
+   <strong><li> SeSender IP Address:</li></strong> 151.80.93.107
+   <strong><li>IP Reputation Check (AbuseIPDB):</li></strong>  No existing reports were freports does not indicate safety, especially given the suspicious context.ound for this IP address in the AbuseIPDB database. However, the lack of 
+</ul>
                                       
