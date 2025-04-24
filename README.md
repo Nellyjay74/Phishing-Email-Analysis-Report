@@ -129,13 +129,17 @@ The domain appears to be newly registered and lacks a solid reputation, which is
 <li> <h3>2 Indicators of Compromise (IoCs)</h3> </li>
 <li> <b>Email Header Anomalies:</b> Missing DKIM/DMARC, mismatched Return-Path and sending server. </li>
 <li> <b>Malicious URL:</b> The URL embedded in the email links to a suspicious domain. </li>
-<li> <b>Unusual Return-Path Domain:</b> sk.globalexceltrade.xyz is a non-standard and suspicious domain name. </li>
+<li> <b>Unusual Return-Path Domain:</b> sk.globalexceltrade.xyz is a non-standard and suspicious domain name </li>
 
 
-<br>
 
+
+
+
+<p>
 <li> <h3>5 Conclusion & Recommendations</h3> </li>
 <li> <b>1 Conclusion</b> </li>
+ </p>
 
 Based on comprehensive email header inspection, authentication failures, and third-party threat intelligence scans, I assess this email to be a <b>confirmed phishing attempt.</b> The email was crafted to trick recipients into clicking a potentially malicious link hosted at innovatech.website. The domain and IP involved exhibit red flags consistent with phishing infrastructure.
 
@@ -151,19 +155,24 @@ Based on comprehensive email header inspection, authentication failures, and thi
 <li> <b>	Enhance Email Filtering:</b> Strengthen email gateway rules to enforce strict DMARC/DKIM/SPF policies. </li>
 <li> <b>Threat Hunting:</b> Initiate monitoring of internal logs and endpoints for any interaction with the flagged domain/IP </li>
 
-
+ <p>
 <br>
 
 
 
-<ul>
+  </p>
+ <pre>
 <b>Report Prepared by:</b>
-<b>Ogunsanwo Adeniyi nelly</b>
-Cybersecurity Analyst,
-</ul>
+<b>Ogunsanwo Adeniyi Nelly</b>
+Cybersecurity Analyst
+  </pre>
+
+
+
+
 
 <br>
-<p>peace: <span>&#x1f54a;</span>......dove
+<p>peace: <span>&#x1f54a;</span>......
 
 
 
