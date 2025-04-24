@@ -65,4 +65,105 @@ Performed a detailed investigation of a suspicious email received through the co
 
 <li>  <b>1 Suspicious Link</b>  </li>
 
-<li> 	<strong>URL Found in Email:</strong> <a href="https://innovatech.website"></a> 
+<li> 	<strong>URL Found in Email:</strong> <a href="https://innovatech.website">https://innovatech.website</a>
+</li>
+
+
+
+<br>
+
+<img src ="Folder/email headerbank.jpg">
+
+
+
+
+
+
+<li> 	I extracted the link and performed scans using the following tools: </li>
+
+<li> <b>URLScan.io</b> </li>
+
+
+
+<img src ="Folder/url scan.jpg">
+
+
+
+
+
+
+<li> <b>VirusTotal</b> </li>
+
+<img src ="Folder/virustotal.jpg">
+
+
+<li> <b>Bluecoat SiteReview</b> </li>
+
+
+<img src ="Folder/siteview.jpg">
+
+
+<li> <h3>2 Threat Intelligence on Domain</h3> </li>
+
+<li> <b> Domain:</b> ⦁	 innovatech.website </li>
+
+<li><b>A WHOIS</b> lookup revealed </li> 
+
+<img src ="Folder/whois.jpg">
+
+<ul>
+<li>Registrar: HOSTINGER operations, UAB </li>
+<li>Registered On:2024-05-28 </li>
+ </ul>
+The domain appears to be newly registered and lacks a solid reputation, which is consistent with common phishing infrastructure.
+
+<br>
+
+
+<li> <h3>4 Threat Intelligence Analysis</h3> </li>
+<li> <b>1 IP Address Reputation</b> </li>
+<li>	<strong>IP Address:</strong> 151.80.93.107 </li>
+<li> The IP address did not return any reports on AbuseIPDB. However, attackers often rotate IPs and domains, so absence of prior activity does not imply trustworthiness.</li>
+
+<br>
+<li> <h3>2 Indicators of Compromise (IoCs)</h3> </li>
+<li> <b>Email Header Anomalies:</b> Missing DKIM/DMARC, mismatched Return-Path and sending server. </li>
+<li> <b>Malicious URL:</b> The URL embedded in the email links to a suspicious domain. </li>
+<li> <b>Unusual Return-Path Domain:</b> sk.globalexceltrade.xyz is a non-standard and suspicious domain name. </li>
+
+
+<br>
+
+<li> <h3>5 Conclusion & Recommendations</h3> </li>
+<li> <b>1 Conclusion</b> </li>
+
+Based on comprehensive email header inspection, authentication failures, and third-party threat intelligence scans, I assess this email to be a <b>confirmed phishing attempt.</b> The email was crafted to trick recipients into clicking a potentially malicious link hosted at innovatech.website. The domain and IP involved exhibit red flags consistent with phishing infrastructure.
+
+<br>
+<li> <b>2 Recommendations</b> </li>
+
+<li> <b>Immediate Quarantine:</b> Ensure the email is removed from all user inboxes.</li>
+<li> <b>	Block Indicators:</b> Add innovatech.website and 151.80.93.107 to all perimeter security blocklists (firewall, proxy, email gateway).</li>
+<li> <b>	Report to Authorities:</b>
+<li> Report the phishing attempt to Microsoft via the Security & Compliance Center.</li>
+<li> Submit indicators to APWG and Google Safe Browsing.</li>
+<li> <b>	Security Awareness Campaign:</b> Notify users about this phishing attempt and reinforce phishing awareness training. </li>
+<li> <b>	Enhance Email Filtering:</b> Strengthen email gateway rules to enforce strict DMARC/DKIM/SPF policies. </li>
+<li> <b>Threat Hunting:</b> Initiate monitoring of internal logs and endpoints for any interaction with the flagged domain/IP </li>
+
+
+<br>
+
+
+
+<ul>
+<b>Report Prepared by:</b>
+<b>Ogunsanwo Adeniyi nelly</b>
+Cybersecurity Analyst,
+</ul>
+
+<br>
+<p>peace: <span>&#x1f54a;</span>......dove
+
+
+
